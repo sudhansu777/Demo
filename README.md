@@ -12,7 +12,18 @@ This is a very simple project which can be useful for creating an end-to-end web
 
 The application can be built using:
 
+The application can be built using:
+
+(Install maven if not present)
+
 mvn clean install then run as a runnable jar file by using
+
+cd target
+java -jar .\bootdemo-0.0.1-SNAPSHOT.jar or running the main file directly.
+
+Open the browser and hit http://localhost:8080/home
+
+One simple page will open. Enter the name and skills and the entered data will be persisted in the DB. then run as a runnable jar file by using
 
 java -jar bootdemo-0.0.1-SNAPSHOT.jar or running the main file directly.
 
