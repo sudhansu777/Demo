@@ -18,7 +18,8 @@ The application can be built using:
 
 mvn clean install then run as a runnable jar file by using
 
-cd target
+
+cd target (Target folder as well as M2 repo has the jar)
 java -jar .\bootdemo-0.0.1-SNAPSHOT.jar or running the main file directly.
 
 Open the browser and hit http://localhost:8080/home
